@@ -10,7 +10,7 @@ const MainApp: React.FC = () => {
 
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text style={styles.text}>Reac Native Expo Theme Scheme</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -24,6 +24,9 @@ const getStyles = (theme: any) => {
       alignItems: 'center',
       justifyContent: 'center',
     },
+    text: {
+      color: theme.text,
+    },
   });
 };
 
@@ -34,3 +37,5 @@ const App: React.FC = () => {
     </ThemeProvider>
   );
 };
+
+export default App;
