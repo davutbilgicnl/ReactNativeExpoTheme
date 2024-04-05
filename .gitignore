@@ -131,3 +131,9 @@ dist
 
 #
 .DS_Store
+
+#
+.expo
+
+#
+.vscode
